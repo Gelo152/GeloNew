@@ -1,0 +1,132 @@
+*, *:after, *:before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    outline: none;
+}
+img {
+    display: block;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto';
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+body {
+    font-family: 'Roboto', arial, sans-serif;
+    font-size: 14px;
+    line-height: 1;
+    color: #000000;
+    background: #f7f7f7;
+}
+header:after, .container:after, footer:after, .widget-posts-list li:after, #subscribe:after {
+    content: "";
+    display: table;
+    clear: both;
+} 
+.container {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1160px;
+}
+header {
+    width: 100%;
+    background: white;
+    padding: 15px 0;
+    margin-bottom: 30px;
+    position: relative;
+}
+.logo .ntice img {
+    margin-left: 40px;
+}
+.logo {
+    margin-left: 155px;
+    display: flex;
+    /*justify-content: flex;*/
+    font-weight: bold;
+    font-size: 22px;
+    align-items: center;
+}
+
+.notice-top {
+    display: flex;
+    width: 700px;
+    justify-content: flex-end;
+
+   
+}
+.notice {
+    display: flex;
+    justify-content: flex-end;
+    font: italic 16px;
+}
+
+
+
+
+
+.bottom-box {
+    background-image: url(../images/bg-bottom.png);
+    background-size: cover;
+    margin-bottom: 30px;
+    width: 100%;
+
+}
+.meta-bottom {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*justify-content: center;*/ 
+}
+.footer-caption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    margin: 10% 0;
+    align-items: center;
+}
+.footer-caption p {
+    font-weight: bold;
+    font-size: 47px;
+}
+.footer-caption span {
+    color: #fa4f01;
+}
+/*.holder-body {
+
+}*/
+.holder-body {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.post-list {
+    display: flex;
+    justify-content: flex-end;
+    font: medium 18px;
+    }
+.items-bottom {
+    display: block;
+    max-width: 830px;
+}
+.aside-list {
+    display: flex;
+    justify-content: flex-start;
+    font: medium 18px;
+    align-items: center;
+}
+.aside-list p {
+    border-top: medium solid #7bbf1c;
+    max-width: 250px;
+}
